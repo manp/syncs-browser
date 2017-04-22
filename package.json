@@ -1,0 +1,27 @@
+{
+  "name": "syncs-browser",
+  "version": "0.0.1",
+  "description": "A JavaScript Library for Real-Time Web Applications - browser script",
+  "main": "syncs.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manp/syncs-browser.git"
+  },
+  "keywords": [
+    "RealTime",
+    "WebSocket",
+    "Shared",
+    "Object",
+    "publish",
+    "subscribe",
+    "RMI"
+  ],
+  "author": "Mostafa Alinaghi-pour",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manp/syncs-browser/issues"
+  },
+  "homepage": "https://github.com/manp/syncs-browser#readme"
+}
