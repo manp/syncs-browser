@@ -129,7 +129,7 @@ class Syncs {
      * open event will emit on first connection
      * @param { (server: Syncs) => {} } callback
      */
-    public onOpen(callback: (server: Syncs) => {}) {
+    public onOpen(callback: (server: Syncs) => void) {
         this.onOpenListener = callback;
     }
 
@@ -138,7 +138,7 @@ class Syncs {
      * this event will emit on close
      * @param { (server: Syncs) => {} } callback
      */
-    public onClose(callback: (server: Syncs) => {}) {
+    public onClose(callback: (server: Syncs) => void) {
         this.onCloseListener = callback;
     }
 
@@ -147,7 +147,7 @@ class Syncs {
      * this event will emit on unhandled close
      * @param { (server: Syncs) => {} } callback
      */
-    public onDisconnect(callback: (server: Syncs) => {}){
+    public onDisconnect(callback: (server: Syncs) => void){
         this.onDisconnectListener = callback;
     }
 
