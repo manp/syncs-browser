@@ -1,10 +1,9 @@
 {
   "name": "syncs-browser",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A JavaScript Library for Real-Time Web Applications - browser script",
   "main": "syncs.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/manp/syncs-browser.git"
