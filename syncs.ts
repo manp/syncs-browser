@@ -714,9 +714,7 @@ class SharedObject {
 }
 
 
-
-
-export interface SyncsConfig {
+interface SyncsConfig {
     /**
      * Web Socket serving path
      * default is 'ws://server-address/syncs'
