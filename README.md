@@ -1,14 +1,18 @@
 # syncs-browser
-__A JavaScript Library for Real-Time Web Applications__
+__A JavaScript Library for Real-Time Web Applicforecast_
 
 _syncs-browser_ is browser library to work with [Syncs](https://github.com/manp/syncs). 
 
 
-## Initalization 
-There is two way to setup:
+## Initialization 
+There is three way to setup:
   
- 1. Developers can download javascripts file from this [link](https://github.com/manp/syncs-browser/releases/tag/1.0) and add the `syncs.js` file to assets directory.
- 2. On server side it's possible to access client script from `Syncs` instance:
+ 1. Developers can download javascript file from this [link](https://github.com/manp/syncs-browser/releases/tag/1.0) and add the `syncs.js` file to assets directory.
+ 2. Use CDN hosted file:
+    ```html
+        <script src="https://cdn.jsdelivr.net/npm/syncs-browser@1"></script>
+    ```
+ 3. On server side it's possible to access client script from `Syncs` instance:
     ```typescript
         app.get('/syncs.js',(req,res)=>{
             res.send(io.clientScript);

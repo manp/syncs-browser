@@ -3,6 +3,7 @@
   "version": "1.0.3",
   "description": "A JavaScript Library for Real-Time Web Applications - browser script",
   "main": "syncs.js",
+  "jsdelivr":"syncs.js",
   "scripts": {},
   "repository": {
     "type": "git",

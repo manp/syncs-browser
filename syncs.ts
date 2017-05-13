@@ -1,5 +1,4 @@
 class Syncs {
-
     /*************** PROPERTIES ****************/
     private socket: WebSocket;
     private socketId: string = null;
@@ -234,7 +233,6 @@ class Syncs {
             return true;
         }
         return false;
-
     }
 
     /**
@@ -727,14 +725,12 @@ interface SyncsConfig {
      */
     autoConnect?:boolean;
 
-
     /**
      * automatically reconnect on unhandled disconnect
      * default is true
      * reconnect delay can be set by reconnectDelay config
      */
     autoReconnect?:boolean;
-
 
     /**
      * time to destroy client after disconnect
@@ -746,6 +742,4 @@ interface SyncsConfig {
      * enables debug mode
      */
     debug?:boolean;
-
-
 }
